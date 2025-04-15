@@ -31,4 +31,7 @@ export default defineConfig({
     emptyOutDir: true,
     chunkSizeWarningLimit: 10000,
   },
+  server: {
+    port: 5173 // or any unused port
+  }
 });
